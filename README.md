@@ -50,6 +50,7 @@
 | Parameters | Type| API |
 |:-------:|:-----:|:------:|
 | start_date, end_date, Disinformation,Score   |  GET  |/api/facebook/v1/pursuesource?{start_date}&{end_date}&{search}&{Score} |
+
 **EXAMPLE RESPONSE:**
 ```
 STATUS CODE - 200: Successful responses
@@ -71,6 +72,7 @@ STATUS CODE - 500: Unexpected error or exception occurred
 | Parameters | Type| API |
 |:-------:|:-----:|:------:|
 | start_date, end_date, page_name   |  GET  |/api/facebook/v1/pursuesource?{start_date}&{end_date}&{page_name} |
+
 **EXAMPLE RESPONSE:**
 ```
 STATUS CODE - 200: Successful responses
@@ -90,6 +92,7 @@ STATUS CODE - 500: Unexpected error or exception occurred
 | Parameters | Type| API |
 |:-------:|:-----:|:------:|
 | start_date, end_date, link   |  GET  |/api/facebook/v1/pursuesource?{start_date}&{end_date}&{link} |
+
 **EXAMPLE RESPONSE:**
 ```
 STATUS CODE - 200: Successful responses
@@ -104,3 +107,4 @@ World', 4: '環球時報 Global Times', 5: '爆笑天堂'}",
  "MutiplePursue source": "{0: 'qiqu.pro', 1: 'qiqi.world', 2: 'nanyang.news', 3: 'ppoo.club'}"
 }
 STATUS CODE - 500: Unexpected error or exception occurred
+```
