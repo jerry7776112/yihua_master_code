@@ -67,7 +67,7 @@ RESPONSE MODEL - application/json
 STATUS CODE - 500: Unexpected error or exception occurred
 ```
 **Search Page**
-* ``` http://127.0.0.1:3000/api/facebook/v1/pursuesource?start_date=2021-11-01&end_date=2021-12-01&page_name= 我看到 , 就分享 ```
+* ``` http://127.0.0.1:3000/api/facebook/v1/pursuesource?start_date=2021-11-01&end_date=2021-12-01&page_name=我看到 , 就分享 ```
 
 | Parameters | Type| API |
 |:-------:|:-----:|:------:|
